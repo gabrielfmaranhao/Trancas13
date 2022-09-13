@@ -15,11 +15,21 @@ color: var(--branco);
     flex-direction: column;
     height: 100%;
     justify-content: space-around;
+    
   }
   li {
     display: flex;
     border-bottom: 1px solid var(--branco);
     height: 33%;
     align-items: center;
+  }
+  li div {
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  li div a {
+    text-decoration: none;
+    color: var(--preto);
   }
 `

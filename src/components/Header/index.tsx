@@ -1,6 +1,6 @@
 import { Button, Container } from "./styles"
 import {AiOutlineMenu} from "react-icons/ai"
-import { Modal } from "../Modal"
+import { Modal } from "../ModalSliderBar"
 import { useState } from "react"
 
 interface IHeader {
@@ -15,7 +15,7 @@ return(
   <>
     <Container>
       <Button onClick={()=> openModals()}>
-        <AiOutlineMenu size={20}/>
+        <AiOutlineMenu size={20} color={"black"}/>
       </Button>
       <h2>{name}</h2>
     </Container>

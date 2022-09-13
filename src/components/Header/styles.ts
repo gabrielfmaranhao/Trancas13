@@ -5,9 +5,11 @@ height: 60px;
 background: var(--roxo1);
 display: flex;
 align-items: center;
-color: var(--branco);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 0px 0px 3px 3px;
+color: var(--preto);
+position: relative;
+width: 100%;
+box-shadow: 20px 20px 60px #A96AD9, -20px -20px 60px #E590FF;
+border-radius: 0px 0px 4px 4px;
 gap: 20px
 `
 export const Button = styled.button`
@@ -18,8 +20,8 @@ border-radius: 4px;
 height: 30px;
 width: 30px;
 border: none;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 align-items: center;
 margin-left: 5px;
+
 
 `

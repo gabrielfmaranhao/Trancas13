@@ -2,11 +2,11 @@ import { createGlobalStyle } from "styled-components";
 
 export const Global = createGlobalStyle`
   :root {
-    --roxo1 : #bb76c5;
-    --roxo2 : #c157ca;
-    --roxo3 : #ac0cba;
-    --verde1: #008037;
+    --roxo1: #C77DFF;
+    --roxo2:  #E0AAFF;
     --branco: #ffffff;
+    --preto: #000000;
+    --gradiente: linear-gradient(180deg, #E0AAFF 19.42%, #AA2CBF 62.42%);
   }
   html,body, #root{
     width: 100%;
